@@ -1,0 +1,5 @@
+elif: Baba, bu yıl ekinler neden hiç yeşermedi?
+baba: Yağmur yağmadı kızım, ama toprak bizi unutmadı.
+elif: O zaman biz ne yapacağız baba?
+baba: Kuyudan su taşıyacağız, damla damla.
+elif: Bak baba, ilk filiz çıktı!

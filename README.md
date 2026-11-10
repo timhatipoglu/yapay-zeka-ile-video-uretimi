@@ -18,6 +18,14 @@ Tam kalite: [demo/video.mp4](demo/video.mp4)
 
 6 cümle, 23,4 saniye. Ses yerel VoxCPM'de üretildi: tarifle oluşturulan sesin ilk cümlesi referans yapılıp kalan cümleler o referansla üretildi (kilit yöntemi: [`ses.md`](skills/video-hatti/ses.md)). Sahneler kodla çizilmiş SVG; görsel modeli kullanılmadı. Animasyon HyperFrames 0.8.184 ile render edildi. Toplam ses-görüntü süre farkı 7 ms, yani 50 ms kapısının altında. Girdiler ve ara dosyalar [`demo/`](demo/) klasöründe: `cumleler.txt`, `timing.json`, `ses/` ve `animasyon/` (kaynak proje ile `sahne_uret.py`).
 
+### İkinci örnek: karakterleri değiştir
+
+![Köy sahnesi](demo-koy-sahnesi/demo.gif)
+
+Tam kalite: [demo-koy-sahnesi/video.mp4](demo-koy-sahnesi/video.mp4)
+
+Aynı hat, başka karakterler: köylü kız Elif ve babası, 5 cümle, 13,3 saniye, iki ayrı ses. Her konuşmacının ilk cümlesi tarifle üretildi ([`sesler.json`](demo-koy-sahnesi/sesler.json)), kalan cümleler o kayıt referans alınarak üretildi. Ağız açıklığı hece sayısından değil, ses dosyasının gerçek şiddetinden gelir; konuşmayan karakter gülümser. Karakterler, kuyu, tarla ve tavuk kodla çizilmiş SVG'dir (görsel modeli yok). Claude'a "kızı nine, babayı torun yap" demen yeterli: `sahne_uret.py` içindeki `kiz_ciz` ve `baba_ciz` işlevlerini o değiştirir. Ses-görüntü süre farkı 20 ms, 50 ms kapısının altında.
+
 ## Kim ne yapar
 
 | Araç | Rolü | Neden |
@@ -343,6 +351,11 @@ demo/                          # örnek çıktı: 6 cümle, 23,4 sn
   cumleler.txt  timing.json    #   metin ve ölçülmüş süreler
   ses/                         #   cümle başına .wav
   animasyon/                   #   HyperFrames kaynak projesi + sahne_uret.py
+  demo.gif  video.mp4          #   önizleme ve tam kalite
+demo-koy-sahnesi/              # ikinci örnek: köylü kız ve baba, 5 cümle, 13,3 sn
+  cumleler.txt  sesler.json    #   konuşmacılı metin ve ses tarifleri
+  timing.json  ses/            #   ölçülmüş süreler, cümle başına .wav
+  animasyon/                   #   HyperFrames kaynak projesi + sahne_uret.py (karakterler kodla çizilir)
   demo.gif  video.mp4          #   önizleme ve tam kalite
 ```
 

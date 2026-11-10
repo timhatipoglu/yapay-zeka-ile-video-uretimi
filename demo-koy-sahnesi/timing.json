@@ -1,0 +1,40 @@
+{
+  "toplam": 13.28,
+  "cumleler": [
+    {
+      "sira": 1,
+      "dosya": "001_elif.wav",
+      "sure": 2.4,
+      "bas": 0.0,
+      "bit": 2.4
+    },
+    {
+      "sira": 2,
+      "dosya": "002_baba.wav",
+      "sure": 4.48,
+      "bas": 2.4,
+      "bit": 6.88
+    },
+    {
+      "sira": 3,
+      "dosya": "003_elif.wav",
+      "sure": 1.6,
+      "bas": 6.88,
+      "bit": 8.48
+    },
+    {
+      "sira": 4,
+      "dosya": "004_baba.wav",
+      "sure": 3.04,
+      "bas": 8.48,
+      "bit": 11.52
+    },
+    {
+      "sira": 5,
+      "dosya": "005_elif.wav",
+      "sure": 1.76,
+      "bas": 11.52,
+      "bit": 13.28
+    }
+  ]
+}
