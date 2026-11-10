@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #111; }
+      #root { position: relative; width: 1280px; height: 720px; overflow: hidden;
+              font-family: system-ui, -apple-system, sans-serif; }
+      .sahne { position: absolute; left: 0; top: 0; width: 1280px; height: 720px; overflow: hidden; }
+      .sahne svg { position: absolute; left: 0; top: 0; }
+      .altyazi { position: absolute; left: 70px; right: 70px; bottom: 32px; text-align: center; }
+      .altyazi .ad { display: inline-block; margin-bottom: 8px; padding: 3px 16px 4px; border-radius: 12px;
+                     font-size: 24px; font-weight: 800; color: #1d2b4a; letter-spacing: 0.6px; }
+      .altyazi .metin { display: block; }
+      .altyazi .metin span { display: inline-block; max-width: 1140px; padding: 10px 28px 12px; border-radius: 18px;
+                      background: rgba(20, 12, 8, 0.82); color: #ffffff; font-size: 40px; font-weight: 700;
+                      line-height: 1.22; }
+
+      .altyazi .ad { background: #ddd; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="22.08" data-width="1280" data-height="720" data-fps="30">
+      <div id="sahne" class="sahne clip" data-start="0" data-duration="22.08" data-track-index="1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="gok" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d6a0"/><stop offset="0.55" stop-color="#f8e8c8"/><stop offset="1" stop-color="#fff6e4"/>
+    </linearGradient>
+    <radialGradient id="vin" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#2a1808" stop-opacity="0"/><stop offset="1" stop-color="#2a1808" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+  <g class="kamera" data-ox="640" data-oy="400">
+    
+  <rect x="-400" y="-200" width="2200" height="520" fill="url(#gok)"/>
+  <rect x="120" y="80" width="1040" height="420" fill="#e8dcc0" stroke="#1d2b4a" stroke-width="4"/>
+  <rect x="160" y="120" width="200" height="140" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+  <rect x="420" y="120" width="200" height="140" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+  <rect x="680" y="120" width="200" height="140" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+  <rect x="940" y="120" width="160" height="140" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+  <rect x="200" y="300" width="880" height="18" fill="#8a5a3a" stroke="#1d2b4a" stroke-width="2"/>
+  <rect x="-400" y="480" width="2200" height="400" fill="#c8b88a"/>
+  <rect x="360" y="360" width="560" height="140" fill="#f4ead0" stroke="#1d2b4a" stroke-width="3.5"/>
+  <text x="640" y="445" text-anchor="middle" font-size="48" font-weight="800" fill="#1d2b4a" font-family="system-ui">A + B = ?</text>
+
+    <g class="a" data-ox="420.0" data-oy="620.0"><g class="a-bL" data-ox="408.0" data-oy="565.0"><line x1="408.0" y1="565.0" x2="404.0" y2="615.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="408.0" y1="565.0" x2="404.0" y2="615.0" stroke="#2a3a5a" stroke-width="10.0" stroke-linecap="round"/></g><g class="a-bR" data-ox="432.0" data-oy="565.0"><line x1="432.0" y1="565.0" x2="436.0" y2="615.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="432.0" y1="565.0" x2="436.0" y2="615.0" stroke="#2a3a5a" stroke-width="10.0" stroke-linecap="round"/></g><path d="M392.0,525.0 L448.0,525.0 L456.0,580.0 L384.0,580.0 Z" fill="#5a8fd8" stroke="#1d2b4a" stroke-width="3.5"/><g class="a-aL" data-ox="394.0" data-oy="537.0"><line x1="394.0" y1="537.0" x2="386.0" y2="580.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="394.0" y1="537.0" x2="386.0" y2="580.0" stroke="#5a8fd8" stroke-width="9.0" stroke-linecap="round"/><g class="a-fL" data-ox="386.0" data-oy="580.0"><circle cx="386.0" cy="587.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="a-aR" data-ox="446.0" data-oy="537.0"><line x1="446.0" y1="537.0" x2="454.0" y2="580.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="446.0" y1="537.0" x2="454.0" y2="580.0" stroke="#5a8fd8" stroke-width="9.0" stroke-linecap="round"/><g class="a-fR" data-ox="454.0" data-oy="580.0"><circle cx="454.0" cy="587.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="a-bas" data-ox="420.0" data-oy="465.0"><circle cx="420.0" cy="465.0" r="28.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3.5"/><path d="M394.8,461.0 Q420.0,427.2 445.2,461.0" fill="#4a3a2a" stroke="#1d2b4a" stroke-width="3"/><g class="a-goz" data-ox="420.0" data-oy="461.0"><circle cx="411.0" cy="461.0" r="3.2" fill="#1d2b4a"/><circle cx="429.0" cy="461.0" r="3.2" fill="#1d2b4a"/></g><path class="a-gulus" d="M410.0,477.0 Q420.0,483.0 430.0,477.0" fill="none" stroke="#1d2b4a" stroke-width="3" stroke-linecap="round"/><ellipse class="a-agiz" cx="420.0" cy="479.0" rx="9.0" ry="7.0" fill="#3b2116" stroke="#1d2b4a" stroke-width="2" opacity="0" data-ox="420.0" data-oy="479.0"/></g></g>
+    <g class="b" data-ox="820.0" data-oy="610.0"><g class="b-bL" data-ox="810.6" data-oy="567.1"><line x1="810.6" y1="567.1" x2="807.5" y2="605.0" stroke="#1d2b4a" stroke-width="13.8" stroke-linecap="round"/><line x1="810.6" y1="567.1" x2="807.5" y2="605.0" stroke="#3a4a6a" stroke-width="7.800000000000001" stroke-linecap="round"/></g><g class="b-bR" data-ox="829.4" data-oy="567.1"><line x1="829.4" y1="567.1" x2="832.5" y2="605.0" stroke="#1d2b4a" stroke-width="13.8" stroke-linecap="round"/><line x1="829.4" y1="567.1" x2="832.5" y2="605.0" stroke="#3a4a6a" stroke-width="7.800000000000001" stroke-linecap="round"/></g><rect x="799.7" y="535.9" width="40.6" height="42.9" rx="8" fill="#c45c3a" stroke="#1d2b4a" stroke-width="3.5"/><g class="b-aL" data-ox="799.7" data-oy="545.3"><line x1="799.7" y1="545.3" x2="791.7" y2="578.8" stroke="#1d2b4a" stroke-width="13.02" stroke-linecap="round"/><line x1="799.7" y1="545.3" x2="791.7" y2="578.8" stroke="#c45c3a" stroke-width="7.0200000000000005" stroke-linecap="round"/><g class="b-fL" data-ox="791.7" data-oy="578.8"><circle cx="791.7" cy="584.3" r="5.5" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="b-aR" data-ox="840.3" data-oy="545.3"><line x1="840.3" y1="545.3" x2="848.3" y2="578.8" stroke="#1d2b4a" stroke-width="13.02" stroke-linecap="round"/><line x1="840.3" y1="545.3" x2="848.3" y2="578.8" stroke="#c45c3a" stroke-width="7.0200000000000005" stroke-linecap="round"/><g class="b-fR" data-ox="848.3" data-oy="578.8"><circle cx="848.3" cy="584.3" r="5.5" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="b-bas" data-ox="820.0" data-oy="489.1"><circle cx="820.0" cy="489.1" r="21.8" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3.5"/><path d="M800.3,485.1 Q820.0,459.6 839.7,485.1" fill="#2a1a10" stroke="#1d2b4a" stroke-width="3"/><g class="b-goz" data-ox="820.0" data-oy="485.1"><circle cx="813.0" cy="485.1" r="3.2" fill="#1d2b4a"/><circle cx="827.0" cy="485.1" r="3.2" fill="#1d2b4a"/></g><path class="b-gulus" d="M810.0,501.1 Q820.0,507.1 830.0,501.1" fill="none" stroke="#1d2b4a" stroke-width="3" stroke-linecap="round"/><ellipse class="b-agiz" cx="820.0" cy="503.1" rx="7.0" ry="5.5" fill="#3b2116" stroke="#1d2b4a" stroke-width="2" opacity="0" data-ox="820.0" data-oy="503.1"/></g></g>
+  </g>
+  <rect width="1280" height="720" fill="url(#vin)"/>
+</svg></div>
+      <div id="alt1" class="altyazi clip" data-start="0.0" data-duration="8.8" data-track-index="2"><span class="ad" style="background:#5a8fd8">Öğretmen</span><div class="metin"><span>Bugün tahtaya bir soru yazacağım, dikkatli bakın.</span></div></div><div id="alt2" class="altyazi clip" data-start="8.8" data-duration="5.92" data-track-index="3"><span class="ad" style="background:#c45c3a">Öğrenci</span><div class="metin"><span>Öğretmenim, A artı B gerçekten C mi olur?</span></div></div><div id="alt3" class="altyazi clip" data-start="14.72" data-duration="3.52" data-track-index="4"><span class="ad" style="background:#5a8fd8">Öğretmen</span><div class="metin"><span>Bazen olur, ama önce varsayımları say.</span></div></div><div id="alt4" class="altyazi clip" data-start="18.24" data-duration="2.56" data-track-index="5"><span class="ad" style="background:#c45c3a">Öğrenci</span><div class="metin"><span>O zaman cevabı ezberlemeyelim mi?</span></div></div><div id="alt5" class="altyazi clip" data-start="20.8" data-duration="1.28" data-track-index="6"><span class="ad" style="background:#5a8fd8">Öğretmen</span><div class="metin"><span>Ezberleme; düşün, sonra yaz.</span></div></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      document.querySelectorAll("[data-ox]").forEach(function (el) {
+        gsap.set(el, { svgOrigin: el.dataset.ox + " " + el.dataset.oy });
+      });
+      const SEG = [{"p": "a", "S": 0.0, "D": 8.8}, {"p": "b", "S": 8.8, "D": 5.92}, {"p": "a", "S": 14.72, "D": 3.52}, {"p": "b", "S": 18.24, "D": 2.56}, {"p": "a", "S": 20.8, "D": 1.28}];
+      const LIP = [[15, 55, 80, 75, 70, 65, 40, 25, 30, 40, 40, 30, 25, 10, 0, 5, 20, 45, 65, 65, 45, 20, 5, 0, 0, 10, 35, 50, 50, 50, 55, 45, 25, 20, 45, 55, 35, 20, 20, 15, 20, 60, 90, 90, 85, 90, 100, 100, 90, 75, 60, 45, 25, 25, 30, 25, 15, 20, 40, 45, 40, 40, 40, 35, 35, 30, 15, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30, 50, 85, 100, 85, 75, 85, 65, 20, 5, 30, 70, 95, 90, 50, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 5, 5, 0, 0, 5, 10, 15, 15, 10, 5, 10, 15, 15, 15, 15, 15, 15, 15, 20, 20, 20, 20, 20, 20, 25, 25, 25, 20, 25, 25, 30, 30, 30, 30, 35, 35, 35, 35, 35, 40, 40, 45, 45, 45, 45, 45, 50, 50, 55, 50, 50, 50, 55, 60, 60, 55, 55, 60, 65, 70, 70, 65, 65, 70, 80, 75, 65, 60, 55, 55, 60, 65, 65, 70, 85, 95, 90, 90, 90, 95, 100, 100, 100, 100, 100, 95, 85, 80, 65, 50, 35, 20, 25, 55, 90, 100, 100, 100, 90, 85, 85, 95, 100, 100, 100, 95, 65, 30, 25, 30, 30, 15, 5, 5, 20, 30, 25, 20, 50, 85, 90, 95, 95, 85, 60, 35, 40, 70, 95, 100, 90, 65, 30, 5, 0, 0, 0, 0, 0, 0, 0], [5, 15, 30, 45, 45, 35, 20, 10, 15, 15, 5, 0, 0, 0, 5, 10, 15, 15, 15, 10, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30, 35, 40, 35, 35, 35, 35, 25, 5, 0, 0, 5, 10, 5, 5, 20, 30, 35, 25, 5, 5, 20, 35, 30, 20, 5, 5, 15, 10, 5, 0, 0, 5, 15, 20, 15, 10, 10, 15, 20, 25, 20, 15, 15, 15, 10, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30, 45, 50, 65, 85, 100, 100, 90, 65, 45, 35, 25, 15, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 35, 80, 100, 100, 100, 100, 100, 100, 95, 65, 30, 15, 40, 85, 95, 75, 35, 35, 65, 95, 90, 55, 15, 0, 0, 20, 65, 85, 70, 70, 90, 100, 90, 70, 70, 80, 85, 80, 80, 85, 70, 40, 30, 50, 65, 50, 30, 15, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 15, 55, 90, 100, 100, 95, 75, 55, 40, 30, 30, 50, 85, 100, 95, 75, 45, 30, 35, 45, 50, 45, 40, 35, 50, 85, 100, 90, 65, 40, 50, 75, 70, 50, 40, 30, 25, 30, 30, 40, 60, 60, 60, 50, 25, 20, 45, 70, 90, 80, 50, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 40, 65, 60, 30, 15, 15, 35, 60, 40, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 25, 75, 100, 95, 85, 90, 70, 30, 20, 50, 75, 55, 20, 15, 30, 35, 50, 80, 100, 95, 65, 20, 0, 10, 40, 70, 80, 70, 50, 25, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 65, 95, 85, 55, 30, 15, 10, 20, 35, 60, 75, 55, 25, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 75, 95, 85, 85, 85, 55, 35, 65, 95, 75, 50, 60, 75, 45, 10, 0, 0, 0, 0, 0, 0, 0, 0]];
+      const TOTAL = 22.08;
+      function Q(s) { return document.querySelector(s); }
+      const ANG = {}, EL = {};
+      function mv(p, k, to, t, dur) {
+        const s = "." + p + "-" + k;
+        if (!EL[s]) { EL[s] = Q(s); ANG[s] = 0; }
+        if (!EL[s]) return;
+        tl.fromTo(EL[s], { rotation: ANG[s] }, { rotation: to, duration: dur, ease: "power2.inOut", immediateRender: false }, t);
+        ANG[s] = to;
+      }
+      SEG.forEach(function (s, idx) {
+        const ag = Q("." + s.p + "-agiz"), gu = Q("." + s.p + "-gulus"), bas = Q("." + s.p + "-bas");
+        if (gu) tl.set(gu, { opacity: 0 }, s.S);
+        if (ag) tl.set(ag, { opacity: 1 }, s.S);
+        let prev = -1;
+        (LIP[idx] || []).forEach(function (v, k) {
+          if (v === prev || !ag) return;
+          prev = v;
+          tl.set(ag, { scaleY: 0.14 + 0.86 * v / 100, scaleX: 1 - 0.22 * v / 100 }, s.S + k / 30);
+          if (bas) tl.set(bas, { y: -2.2 * v / 100 }, s.S + k / 30);
+        });
+        if (ag) tl.set(ag, { opacity: 0 }, s.S + s.D - 0.001);
+        if (gu) tl.set(gu, { opacity: 1 }, s.S + s.D - 0.001);
+        if (bas) tl.set(bas, { y: 0 }, s.S + s.D - 0.001);
+        // hafif jest
+        mv(s.p, "aR", s.p === "a" ? -40 : -25, s.S + 0.1, 0.35);
+        mv(s.p, "aL", s.p === "a" ? 20 : 35, s.S + 0.15, 0.35);
+        mv(s.p, "aR", -8, s.S + s.D - 0.35, 0.3);
+        mv(s.p, "aL", 8, s.S + s.D - 0.35, 0.3);
+      });
+      // dinleyen hafif sallanır
+      tl.fromTo(Q(".kamera"), { scale: 1 }, { scale: 1.04, duration: TOTAL, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, 0);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+</script>
+  </body>
+</html>

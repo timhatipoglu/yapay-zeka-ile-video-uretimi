@@ -1,0 +1,5 @@
+dede: Torunum, bu limanda her sabah aynı martılar uyanır.
+torun: Dede, o tekne neden hiç hareket etmiyor?
+dede: Motoru bozuldu, ama denizi unutmadı.
+torun: O zaman biz mi tamir edeceğiz?
+dede: Sen vidaları tut, ben yağlayacağım.

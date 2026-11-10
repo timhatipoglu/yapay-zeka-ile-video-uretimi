@@ -26,6 +26,18 @@ Tam kalite: [demo-koy-sahnesi/video.mp4](demo-koy-sahnesi/video.mp4)
 
 Aynı hat, başka karakterler: köylü kız Elif ve babası, 5 cümle, 13,3 saniye, iki ayrı ses. Her konuşmacının ilk cümlesi tarifle üretildi ([`sesler.json`](demo-koy-sahnesi/sesler.json)), kalan cümleler o kayıt referans alınarak üretildi. Ağız açıklığı hece sayısından değil, ses dosyasının gerçek şiddetinden gelir; konuşmayan karakter gülümser. Karakterler, kuyu, tarla ve tavuk kodla çizilmiş SVG'dir (görsel modeli yok). Claude'a "kızı nine, babayı torun yap" demen yeterli: `sahne_uret.py` içindeki `kiz_ciz` ve `baba_ciz` işlevlerini o değiştirir. Ses-görüntü süre farkı 20 ms, 50 ms kapısının altında.
 
+### Üç kısa örnek daha (farklı yer, karakter, ses)
+
+Aynı hat; yalnızca `cumleler.txt` + `sesler.json` + `sahne.json` değişiyor. Ses: [`scripts/ornek_ses_uret.py`](scripts/ornek_ses_uret.py) (tarifle kilitle + klon). Sahne: [`scripts/ornek_sahne_uret.py`](scripts/ornek_sahne_uret.py) (ortak SVG şablon, temaya göre arka plan).
+
+| Demo | Karakterler | Süre | Ses–görüntü |
+|---|---|---|---|
+| [Liman](demo-liman/) — balıkçı dede + torun | ![Liman](demo-liman/demo.gif) | 19,0 sn | 27 ms |
+| [Okul](demo-okul/) — öğretmen + öğrenci | ![Okul](demo-okul/demo.gif) | 22,1 sn | 20 ms |
+| [Tren](demo-tren/) — yolcu + kondüktör | ![Tren](demo-tren/demo.gif) | 11,8 sn | 27 ms |
+
+Tam kalite: [demo-liman/video.mp4](demo-liman/video.mp4) · [demo-okul/video.mp4](demo-okul/video.mp4) · [demo-tren/video.mp4](demo-tren/video.mp4)
+
 ## Kim ne yapar
 
 | Araç | Rolü | Neden |
@@ -347,6 +359,8 @@ scripts/
   gemini_tts.py                # Gemini TTS, cümle cümle; girdi .txt ya da sahneler.json
   sure_olc.py                  # ses sürelerini ölçer → timing.json
   birlestir.sh                 # görüntü + ses → MP4, 50 ms kapısı, seviye eşitleme
+  ornek_ses_uret.py            # kısa demolar: tarif + perde bandı + klon kilidi
+  ornek_sahne_uret.py          # kısa demolar: ortak SVG şablon (liman/okul/tren)
 demo/                          # örnek çıktı: 6 cümle, 23,4 sn
   cumleler.txt  timing.json    #   metin ve ölçülmüş süreler
   ses/                         #   cümle başına .wav
@@ -357,6 +371,10 @@ demo-koy-sahnesi/              # ikinci örnek: köylü kız ve baba, 5 cümle, 
   timing.json  ses/            #   ölçülmüş süreler, cümle başına .wav
   animasyon/                   #   HyperFrames kaynak projesi + sahne_uret.py (karakterler kodla çizilir)
   demo.gif  video.mp4          #   önizleme ve tam kalite
+demo-liman/ demo-okul/ demo-tren/   # üç kısa örnek (farklı yer/karakter/ses)
+  cumleler.txt  sesler.json  sahne.json
+  timing.json  ses/  referans/ animasyon/
+  demo.gif  video.mp4
 ```
 
 `sahneler.json` repoda yoktur: duygulu seslendirmede Claude onu projenin köküne yazar (biçim: [`ses-yonetmeni`](skills/ses-yonetmeni/SKILL.md)).

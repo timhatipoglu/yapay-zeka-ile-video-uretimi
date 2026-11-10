@@ -1,0 +1,7 @@
+{
+  "tema": "okul",
+  "karakterler": [
+    {"id": "ogretmen", "etiket": "Öğretmen", "ceket": "#5a8fd8", "pantolon": "#2a3a5a", "sac": "#4a3a2a", "etek": true},
+    {"id": "ogrenci", "etiket": "Öğrenci", "cocuk": true, "ceket": "#c45c3a", "pantolon": "#3a4a6a", "sac": "#2a1a10"}
+  ]
+}

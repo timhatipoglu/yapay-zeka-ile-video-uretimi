@@ -1,0 +1,5 @@
+ogretmen: Bugün tahtaya bir soru yazacağım, dikkatli bakın.
+ogrenci: Öğretmenim, A artı B gerçekten C mi olur?
+ogretmen: Bazen olur, ama önce varsayımları say.
+ogrenci: O zaman cevabı ezberlemeyelim mi?
+ogretmen: Ezberleme; düşün, sonra yaz.

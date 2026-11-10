@@ -1,0 +1,5 @@
+yolcu: Bu tren İstanbul'a mı gidiyor, kondüktör bey?
+konduktor: Evet efendim, bir sonraki durak Haydarpaşa.
+yolcu: Biletimi kontrol eder misiniz?
+konduktor: Geçerli, lütfen kapıyı kapatmayın.
+yolcu: Teşekkürler, manzarayı kaçırmayacağım.

@@ -1,0 +1,7 @@
+{
+  "tema": "tren",
+  "karakterler": [
+    {"id": "yolcu", "etiket": "Yolcu", "ceket": "#d0a040", "pantolon": "#3a3a4a", "sac": "#2a2a2a"},
+    {"id": "konduktor", "etiket": "Kondüktör", "ceket": "#2a4a6a", "pantolon": "#1a2a3a", "sac": "#1a1a1a"}
+  ]
+}

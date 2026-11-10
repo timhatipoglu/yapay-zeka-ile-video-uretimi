@@ -1,0 +1,20 @@
+{
+  "dede": {
+    "reference": "referans/dede.wav",
+    "prompt_wav": "referans/dede.wav",
+    "prompt_text": "Torunum, bu limanda her sabah aynı martılar uyanır.",
+    "perde": [
+      90,
+      160
+    ]
+  },
+  "torun": {
+    "reference": "referans/torun.wav",
+    "prompt_wav": "referans/torun.wav",
+    "prompt_text": "Dede, o tekne neden hiç hareket etmiyor?",
+    "perde": [
+      220,
+      380
+    ]
+  }
+}

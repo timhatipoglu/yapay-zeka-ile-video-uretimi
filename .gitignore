@@ -3,3 +3,7 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+_tmp_ses/
+**/animasyon/renders/
+**/animasyon/.hyperframes/
+**/animasyon/render.mp4

@@ -1,0 +1,40 @@
+{
+  "toplam": 22.08,
+  "cumleler": [
+    {
+      "sira": 1,
+      "dosya": "001_ogretmen.wav",
+      "sure": 8.8,
+      "bas": 0.0,
+      "bit": 8.8
+    },
+    {
+      "sira": 2,
+      "dosya": "002_ogrenci.wav",
+      "sure": 5.92,
+      "bas": 8.8,
+      "bit": 14.72
+    },
+    {
+      "sira": 3,
+      "dosya": "003_ogretmen.wav",
+      "sure": 3.52,
+      "bas": 14.72,
+      "bit": 18.24
+    },
+    {
+      "sira": 4,
+      "dosya": "004_ogrenci.wav",
+      "sure": 2.56,
+      "bas": 18.24,
+      "bit": 20.8
+    },
+    {
+      "sira": 5,
+      "dosya": "005_ogretmen.wav",
+      "sure": 1.28,
+      "bas": 20.8,
+      "bit": 22.08
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "ogretmen": {
+    "reference": "referans/ogretmen.wav",
+    "prompt_wav": "referans/ogretmen.wav",
+    "prompt_text": "Bugün tahtaya bir soru yazacağım, dikkatli bakın.",
+    "perde": [
+      160,
+      240
+    ]
+  },
+  "ogrenci": {
+    "reference": "referans/ogrenci.wav",
+    "prompt_wav": "referans/ogrenci.wav",
+    "prompt_text": "Öğretmenim, A artı B gerçekten C mi olur?",
+    "perde": [
+      250,
+      390
+    ]
+  }
+}

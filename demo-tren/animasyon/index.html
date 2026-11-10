@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #111; }
+      #root { position: relative; width: 1280px; height: 720px; overflow: hidden;
+              font-family: system-ui, -apple-system, sans-serif; }
+      .sahne { position: absolute; left: 0; top: 0; width: 1280px; height: 720px; overflow: hidden; }
+      .sahne svg { position: absolute; left: 0; top: 0; }
+      .altyazi { position: absolute; left: 70px; right: 70px; bottom: 32px; text-align: center; }
+      .altyazi .ad { display: inline-block; margin-bottom: 8px; padding: 3px 16px 4px; border-radius: 12px;
+                     font-size: 24px; font-weight: 800; color: #1d2b4a; letter-spacing: 0.6px; }
+      .altyazi .metin { display: block; }
+      .altyazi .metin span { display: inline-block; max-width: 1140px; padding: 10px 28px 12px; border-radius: 18px;
+                      background: rgba(20, 12, 8, 0.82); color: #ffffff; font-size: 40px; font-weight: 700;
+                      line-height: 1.22; }
+
+      .altyazi .ad { background: #ddd; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="11.84" data-width="1280" data-height="720" data-fps="30">
+      <div id="sahne" class="sahne clip" data-start="0" data-duration="11.84" data-track-index="1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="gok" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a5a"/><stop offset="0.55" stop-color="#6a7a8a"/><stop offset="1" stop-color="#9aa8b4"/>
+    </linearGradient>
+    <radialGradient id="vin" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0.55" stop-color="#101018" stop-opacity="0"/><stop offset="1" stop-color="#101018" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+  <g class="kamera" data-ox="640" data-oy="400">
+    
+  <rect x="-400" y="-200" width="2200" height="420" fill="url(#gok)"/>
+  <rect x="-400" y="360" width="2200" height="80" fill="#5a5a5a"/>
+  <rect x="-400" y="430" width="2200" height="20" fill="#d0a040"/>
+  <rect x="-400" y="450" width="2200" height="400" fill="#3a3a3a"/>
+  <g class="vagon" data-ox="200" data-oy="300">
+    <rect x="40" y="200" width="520" height="200" rx="8" fill="#c45c3a" stroke="#1d2b4a" stroke-width="4"/>
+    <rect x="80" y="230" width="100" height="80" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+    <rect x="220" y="230" width="100" height="80" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+    <rect x="360" y="230" width="100" height="80" fill="#9ec9e8" stroke="#1d2b4a" stroke-width="3"/>
+    <circle cx="120" cy="410" r="28" fill="#2a2a2a" stroke="#1d2b4a" stroke-width="3"/>
+    <circle cx="420" cy="410" r="28" fill="#2a2a2a" stroke="#1d2b4a" stroke-width="3"/>
+  </g>
+  <rect x="700" y="160" width="18" height="220" fill="#6a6a6a" stroke="#1d2b4a" stroke-width="2"/>
+  <rect x="1000" y="140" width="18" height="240" fill="#6a6a6a" stroke="#1d2b4a" stroke-width="2"/>
+
+    <g class="a" data-ox="420.0" data-oy="620.0"><g class="a-bL" data-ox="408.0" data-oy="565.0"><line x1="408.0" y1="565.0" x2="404.0" y2="615.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="408.0" y1="565.0" x2="404.0" y2="615.0" stroke="#3a3a4a" stroke-width="10.0" stroke-linecap="round"/></g><g class="a-bR" data-ox="432.0" data-oy="565.0"><line x1="432.0" y1="565.0" x2="436.0" y2="615.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="432.0" y1="565.0" x2="436.0" y2="615.0" stroke="#3a3a4a" stroke-width="10.0" stroke-linecap="round"/></g><rect x="394.0" y="525.0" width="52.0" height="55.0" rx="8" fill="#d0a040" stroke="#1d2b4a" stroke-width="3.5"/><g class="a-aL" data-ox="394.0" data-oy="537.0"><line x1="394.0" y1="537.0" x2="386.0" y2="580.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="394.0" y1="537.0" x2="386.0" y2="580.0" stroke="#d0a040" stroke-width="9.0" stroke-linecap="round"/><g class="a-fL" data-ox="386.0" data-oy="580.0"><circle cx="386.0" cy="587.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="a-aR" data-ox="446.0" data-oy="537.0"><line x1="446.0" y1="537.0" x2="454.0" y2="580.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="446.0" y1="537.0" x2="454.0" y2="580.0" stroke="#d0a040" stroke-width="9.0" stroke-linecap="round"/><g class="a-fR" data-ox="454.0" data-oy="580.0"><circle cx="454.0" cy="587.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="a-bas" data-ox="420.0" data-oy="465.0"><circle cx="420.0" cy="465.0" r="28.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3.5"/><path d="M394.8,461.0 Q420.0,427.2 445.2,461.0" fill="#2a2a2a" stroke="#1d2b4a" stroke-width="3"/><g class="a-goz" data-ox="420.0" data-oy="461.0"><circle cx="411.0" cy="461.0" r="3.2" fill="#1d2b4a"/><circle cx="429.0" cy="461.0" r="3.2" fill="#1d2b4a"/></g><path class="a-gulus" d="M410.0,477.0 Q420.0,483.0 430.0,477.0" fill="none" stroke="#1d2b4a" stroke-width="3" stroke-linecap="round"/><ellipse class="a-agiz" cx="420.0" cy="479.0" rx="9.0" ry="7.0" fill="#3b2116" stroke="#1d2b4a" stroke-width="2" opacity="0" data-ox="420.0" data-oy="479.0"/></g></g>
+    <g class="b" data-ox="820.0" data-oy="610.0"><g class="b-bL" data-ox="808.0" data-oy="555.0"><line x1="808.0" y1="555.0" x2="804.0" y2="605.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="808.0" y1="555.0" x2="804.0" y2="605.0" stroke="#1a2a3a" stroke-width="10.0" stroke-linecap="round"/></g><g class="b-bR" data-ox="832.0" data-oy="555.0"><line x1="832.0" y1="555.0" x2="836.0" y2="605.0" stroke="#1d2b4a" stroke-width="16.0" stroke-linecap="round"/><line x1="832.0" y1="555.0" x2="836.0" y2="605.0" stroke="#1a2a3a" stroke-width="10.0" stroke-linecap="round"/></g><rect x="794.0" y="515.0" width="52.0" height="55.0" rx="8" fill="#2a4a6a" stroke="#1d2b4a" stroke-width="3.5"/><g class="b-aL" data-ox="794.0" data-oy="527.0"><line x1="794.0" y1="527.0" x2="786.0" y2="570.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="794.0" y1="527.0" x2="786.0" y2="570.0" stroke="#2a4a6a" stroke-width="9.0" stroke-linecap="round"/><g class="b-fL" data-ox="786.0" data-oy="570.0"><circle cx="786.0" cy="577.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="b-aR" data-ox="846.0" data-oy="527.0"><line x1="846.0" y1="527.0" x2="854.0" y2="570.0" stroke="#1d2b4a" stroke-width="15.0" stroke-linecap="round"/><line x1="846.0" y1="527.0" x2="854.0" y2="570.0" stroke="#2a4a6a" stroke-width="9.0" stroke-linecap="round"/><g class="b-fR" data-ox="854.0" data-oy="570.0"><circle cx="854.0" cy="577.0" r="7.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3"/></g></g><g class="b-bas" data-ox="820.0" data-oy="455.0"><circle cx="820.0" cy="455.0" r="28.0" fill="#f0c49a" stroke="#1d2b4a" stroke-width="3.5"/><path d="M794.8,451.0 Q820.0,417.2 845.2,451.0" fill="#1a1a1a" stroke="#1d2b4a" stroke-width="3"/><g class="b-goz" data-ox="820.0" data-oy="451.0"><circle cx="811.0" cy="451.0" r="3.2" fill="#1d2b4a"/><circle cx="829.0" cy="451.0" r="3.2" fill="#1d2b4a"/></g><path class="b-gulus" d="M810.0,467.0 Q820.0,473.0 830.0,467.0" fill="none" stroke="#1d2b4a" stroke-width="3" stroke-linecap="round"/><ellipse class="b-agiz" cx="820.0" cy="469.0" rx="9.0" ry="7.0" fill="#3b2116" stroke="#1d2b4a" stroke-width="2" opacity="0" data-ox="820.0" data-oy="469.0"/></g></g>
+  </g>
+  <rect width="1280" height="720" fill="url(#vin)"/>
+</svg></div>
+      <div id="alt1" class="altyazi clip" data-start="0.0" data-duration="2.08" data-track-index="2"><span class="ad" style="background:#d0a040">Yolcu</span><div class="metin"><span>Bu tren İstanbul&#x27;a mı gidiyor, kondüktör bey?</span></div></div><div id="alt2" class="altyazi clip" data-start="2.08" data-duration="2.4" data-track-index="3"><span class="ad" style="background:#70a0c8">Kondüktör</span><div class="metin"><span>Evet efendim, bir sonraki durak Haydarpaşa.</span></div></div><div id="alt3" class="altyazi clip" data-start="4.48" data-duration="1.6" data-track-index="4"><span class="ad" style="background:#d0a040">Yolcu</span><div class="metin"><span>Biletimi kontrol eder misiniz?</span></div></div><div id="alt4" class="altyazi clip" data-start="6.08" data-duration="3.52" data-track-index="5"><span class="ad" style="background:#70a0c8">Kondüktör</span><div class="metin"><span>Geçerli, lütfen kapıyı kapatmayın.</span></div></div><div id="alt5" class="altyazi clip" data-start="9.6" data-duration="2.24" data-track-index="6"><span class="ad" style="background:#d0a040">Yolcu</span><div class="metin"><span>Teşekkürler, manzarayı kaçırmayacağım.</span></div></div>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      document.querySelectorAll("[data-ox]").forEach(function (el) {
+        gsap.set(el, { svgOrigin: el.dataset.ox + " " + el.dataset.oy });
+      });
+      const SEG = [{"p": "a", "S": 0.0, "D": 2.08}, {"p": "b", "S": 2.08, "D": 2.4}, {"p": "a", "S": 4.48, "D": 1.6}, {"p": "b", "S": 6.08, "D": 3.52}, {"p": "a", "S": 9.6, "D": 2.24}];
+      const LIP = [[50, 35, 35, 50, 40, 15, 0, 25, 75, 95, 100, 100, 90, 75, 50, 35, 20, 5, 25, 75, 100, 90, 65, 55, 55, 60, 70, 80, 80, 65, 65, 60, 50, 25, 20, 50, 70, 45, 15, 0, 20, 55, 65, 50, 40, 30, 20, 5, 0, 0, 25, 70, 90, 70, 40, 25, 45, 60, 50, 35, 20, 5, 0], [30, 60, 90, 100, 100, 100, 95, 70, 40, 45, 75, 70, 40, 30, 50, 85, 100, 100, 85, 65, 50, 45, 35, 35, 50, 70, 70, 60, 60, 70, 85, 90, 90, 85, 75, 60, 30, 35, 55, 55, 50, 60, 75, 80, 85, 75, 50, 30, 25, 45, 65, 80, 80, 75, 70, 75, 70, 55, 30, 10, 15, 45, 55, 50, 45, 40, 40, 40, 30, 15, 5, 0], [0, 0, 0, 20, 50, 60, 70, 75, 45, 10, 15, 50, 70, 45, 15, 25, 75, 90, 65, 30, 20, 50, 80, 95, 90, 60, 50, 75, 80, 70, 65, 60, 50, 30, 20, 15, 10, 20, 30, 25, 15, 5, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 25, 50, 85, 90, 70, 60, 70, 70, 85, 100, 100, 100, 100, 95, 85, 70, 50, 25, 5, 0, 0, 0, 0, 0, 0, 10, 35, 65, 65, 45, 35, 30, 45, 80, 100, 95, 70, 40, 45, 75, 75, 45, 15, 35, 80, 100, 80, 50, 35, 45, 70, 55, 25, 40, 80, 75, 35, 5, 5, 30, 55, 70, 70, 65, 55, 35, 10, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 65, 80, 55, 55, 80, 80, 40, 5, 5, 25, 55, 65, 75, 95, 85, 60, 50, 70, 90, 85, 60, 50, 70, 90, 100, 85, 45, 10, 25, 65, 60, 25, 20, 30, 50, 50, 50, 45, 40, 20, 10, 20, 30, 20, 5, 0, 0, 0, 0, 0, 0]];
+      const TOTAL = 11.84;
+      function Q(s) { return document.querySelector(s); }
+      const ANG = {}, EL = {};
+      function mv(p, k, to, t, dur) {
+        const s = "." + p + "-" + k;
+        if (!EL[s]) { EL[s] = Q(s); ANG[s] = 0; }
+        if (!EL[s]) return;
+        tl.fromTo(EL[s], { rotation: ANG[s] }, { rotation: to, duration: dur, ease: "power2.inOut", immediateRender: false }, t);
+        ANG[s] = to;
+      }
+      SEG.forEach(function (s, idx) {
+        const ag = Q("." + s.p + "-agiz"), gu = Q("." + s.p + "-gulus"), bas = Q("." + s.p + "-bas");
+        if (gu) tl.set(gu, { opacity: 0 }, s.S);
+        if (ag) tl.set(ag, { opacity: 1 }, s.S);
+        let prev = -1;
+        (LIP[idx] || []).forEach(function (v, k) {
+          if (v === prev || !ag) return;
+          prev = v;
+          tl.set(ag, { scaleY: 0.14 + 0.86 * v / 100, scaleX: 1 - 0.22 * v / 100 }, s.S + k / 30);
+          if (bas) tl.set(bas, { y: -2.2 * v / 100 }, s.S + k / 30);
+        });
+        if (ag) tl.set(ag, { opacity: 0 }, s.S + s.D - 0.001);
+        if (gu) tl.set(gu, { opacity: 1 }, s.S + s.D - 0.001);
+        if (bas) tl.set(bas, { y: 0 }, s.S + s.D - 0.001);
+        // hafif jest
+        mv(s.p, "aR", s.p === "a" ? -40 : -25, s.S + 0.1, 0.35);
+        mv(s.p, "aL", s.p === "a" ? 20 : 35, s.S + 0.15, 0.35);
+        mv(s.p, "aR", -8, s.S + s.D - 0.35, 0.3);
+        mv(s.p, "aL", 8, s.S + s.D - 0.35, 0.3);
+      });
+      // dinleyen hafif sallanır
+      tl.fromTo(Q(".kamera"), { scale: 1 }, { scale: 1.04, duration: TOTAL, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, 0);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+</script>
+  </body>
+</html>

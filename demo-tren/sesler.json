@@ -1,0 +1,20 @@
+{
+  "yolcu": {
+    "reference": "referans/yolcu.wav",
+    "prompt_wav": "referans/yolcu.wav",
+    "prompt_text": "Bu tren İstanbul'a mı gidiyor, kondüktör bey?",
+    "perde": [
+      110,
+      180
+    ]
+  },
+  "konduktor": {
+    "reference": "referans/konduktor.wav",
+    "prompt_wav": "referans/konduktor.wav",
+    "prompt_text": "Evet efendim, bir sonraki durak Haydarpaşa.",
+    "perde": [
+      85,
+      145
+    ]
+  }
+}
