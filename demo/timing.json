@@ -1,0 +1,47 @@
+{
+  "toplam": 23.36,
+  "cumleler": [
+    {
+      "sira": 1,
+      "dosya": "001_anlatici.wav",
+      "sure": 4.32,
+      "bas": 0.0,
+      "bit": 4.32
+    },
+    {
+      "sira": 2,
+      "dosya": "002_anlatici.wav",
+      "sure": 3.68,
+      "bas": 4.32,
+      "bit": 8.0
+    },
+    {
+      "sira": 3,
+      "dosya": "003_anlatici.wav",
+      "sure": 5.12,
+      "bas": 8.0,
+      "bit": 13.12
+    },
+    {
+      "sira": 4,
+      "dosya": "004_anlatici.wav",
+      "sure": 3.2,
+      "bas": 13.12,
+      "bit": 16.32
+    },
+    {
+      "sira": 5,
+      "dosya": "005_anlatici.wav",
+      "sure": 3.36,
+      "bas": 16.32,
+      "bit": 19.68
+    },
+    {
+      "sira": 6,
+      "dosya": "006_anlatici.wav",
+      "sure": 3.68,
+      "bas": 19.68,
+      "bit": 23.36
+    }
+  ]
+}

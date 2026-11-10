@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">1 Claude + 1 ChatGPT + 1 Gemini = bir video hattı</title>
+  <desc id="d">On istasyon: senaryo, ses, ölçüm, görsel, animasyon, render, birleştir, kapak, kontrol, yayın. Kutu rengi esas aracı, mavi nokta Gemini seçeneğini gösterir.</desc>
+  <defs>
+    <marker id="ok" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6b75"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f1f24; }
+      .baslik { font-size: 26px; font-weight: 700; }
+      .alt { font-size: 15px; fill: #55555e; }
+      .no { font-size: 13px; font-weight: 700; fill: #6b6b75; }
+      .ad { font-size: 20px; font-weight: 700; }
+      .arac { font-size: 14px; font-weight: 600; }
+      .not { font-size: 13px; fill: #44444c; }
+      .ok { stroke: #6b6b75; stroke-width: 2.5; fill: none; marker-end: url(#ok); }
+      .claude { fill: #fbe3d6; stroke: #d97757; stroke-width: 2.5; }
+      .gemini { fill: #dce8fb; stroke: #4c7be0; stroke-width: 2.5; }
+      .gpt { fill: #ddf2e5; stroke: #2e9b63; stroke-width: 2.5; }
+      .yerel { fill: #e9e9ec; stroke: #8a8a93; stroke-width: 2.5; }
+      .sen { fill: #fff3c4; stroke: #c9a21b; stroke-width: 2.5; }
+      .yayin { fill: #ece3f8; stroke: #7b5cc4; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="560" rx="18" fill="#fafafa"/>
+  <text x="40" y="52" class="baslik">1 Claude + 1 ChatGPT + 1 Gemini = bir video hattı</text>
+  <text x="40" y="78" class="alt">Kutu rengi esas aracı, mavi nokta Gemini seçeneğini gösterir. Ses cümle cümle üretilir, görüntü ölçülmüş süreye kilitlenir.</text>
+
+  <!-- Satır 1 -->
+  <g>
+    <rect x="40" y="110" width="200" height="130" rx="12" class="claude"/>
+    <text x="56" y="134" class="no">1</text>
+    <text x="56" y="160" class="ad">Senaryo</text>
+    <text x="56" y="184" class="arac">Claude</text>
+    <text x="56" y="206" class="not">kanca, cümleler,</text>
+    <text x="56" y="224" class="not">okunuş sözlüğü</text>
+  </g>
+  <g>
+    <rect x="272" y="110" width="200" height="130" rx="12" class="yerel"/>
+    <circle cx="454" cy="128" r="7" class="gemini"/>
+    <text x="288" y="134" class="no">2</text>
+    <text x="288" y="160" class="ad">Ses</text>
+    <text x="288" y="184" class="arac">VoxCPM (yerel)</text>
+    <text x="288" y="206" class="not">ya da Gemini TTS,</text>
+    <text x="288" y="224" class="not">cümle başına bir wav</text>
+  </g>
+  <g>
+    <rect x="504" y="110" width="200" height="130" rx="12" class="yerel"/>
+    <text x="520" y="134" class="no">3</text>
+    <text x="520" y="160" class="ad">Ölçüm</text>
+    <text x="520" y="184" class="arac">sure_olc.py</text>
+    <text x="520" y="206" class="not">timing.json: gerçek</text>
+    <text x="520" y="224" class="not">süreler (Audio Lock)</text>
+  </g>
+  <g>
+    <rect x="736" y="110" width="200" height="130" rx="12" class="gpt"/>
+    <circle cx="918" cy="128" r="7" class="gemini"/>
+    <text x="752" y="134" class="no">4</text>
+    <text x="752" y="160" class="ad">Görsel</text>
+    <text x="752" y="184" class="arac">ChatGPT · Gemini</text>
+    <text x="752" y="206" class="not">arka plan, kapak</text>
+    <text x="752" y="224" class="not">zemini (yazısız)</text>
+  </g>
+  <g>
+    <rect x="968" y="110" width="200" height="130" rx="12" class="claude"/>
+    <text x="984" y="134" class="no">5</text>
+    <text x="984" y="160" class="ad">Animasyon</text>
+    <text x="984" y="184" class="arac">Claude</text>
+    <text x="984" y="206" class="not">HTML + SVG çöp adam,</text>
+    <text x="984" y="224" class="not">süreler timing.json'dan</text>
+  </g>
+
+  <!-- Satır 2 -->
+  <g>
+    <rect x="40" y="330" width="200" height="130" rx="12" class="yerel"/>
+    <text x="56" y="354" class="no">6</text>
+    <text x="56" y="380" class="ad">Render</text>
+    <text x="56" y="404" class="arac" style="font-size:12.5px">HyperFrames · Remotion</text>
+    <text x="56" y="426" class="not">önce check, render</text>
+    <text x="56" y="444" class="not">tek sırayla</text>
+  </g>
+  <g>
+    <rect x="272" y="330" width="200" height="130" rx="12" class="yerel"/>
+    <text x="288" y="354" class="no">7</text>
+    <text x="288" y="380" class="ad">Birleştir</text>
+    <text x="288" y="404" class="arac">ffmpeg</text>
+    <text x="288" y="426" class="not">birlestir.sh:</text>
+    <text x="288" y="444" class="not">fark ≤ 50 ms kapısı</text>
+  </g>
+  <g>
+    <rect x="504" y="330" width="200" height="130" rx="12" class="gpt"/>
+    <circle cx="686" cy="348" r="7" class="gemini"/>
+    <text x="520" y="354" class="no">8</text>
+    <text x="520" y="380" class="ad">Kapak</text>
+    <text x="520" y="404" class="arac">görsel + HTML başlık</text>
+    <text x="520" y="426" class="not">en çok 4 kelime,</text>
+    <text x="520" y="444" class="not">yazı kodla bindirilir</text>
+  </g>
+  <g>
+    <rect x="736" y="330" width="200" height="130" rx="12" class="sen"/>
+    <text x="752" y="354" class="no">9</text>
+    <text x="752" y="380" class="ad">Kontrol</text>
+    <text x="752" y="404" class="arac">sen</text>
+    <text x="752" y="426" class="not">videoyu izle, ses ve</text>
+    <text x="752" y="444" class="not">yazıyı kontrol et</text>
+  </g>
+  <g>
+    <rect x="968" y="330" width="200" height="130" rx="12" class="yayin"/>
+    <text x="984" y="354" class="no">10</text>
+    <text x="984" y="380" class="ad">Yayın</text>
+    <text x="984" y="404" class="arac">YouTube</text>
+    <text x="984" y="426" class="not">AI use (Yapay zeka</text>
+    <text x="984" y="444" class="not">kullanımı) sorusu</text>
+  </g>
+
+  <!-- Oklar: satır 1 -->
+  <path class="ok" d="M240,175 L268,175"/>
+  <path class="ok" d="M472,175 L500,175"/>
+  <path class="ok" d="M704,175 L732,175"/>
+  <path class="ok" d="M936,175 L964,175"/>
+  <!-- satır geçişi -->
+  <path class="ok" d="M1068,240 L1068,285 L140,285 L140,326"/>
+  <!-- Oklar: satır 2 -->
+  <path class="ok" d="M240,395 L268,395"/>
+  <path class="ok" d="M472,395 L500,395"/>
+  <path class="ok" d="M704,395 L732,395"/>
+  <path class="ok" d="M936,395 L964,395"/>
+
+  <!-- Gösterge -->
+  <g transform="translate(40,500)">
+    <rect width="22" height="22" rx="5" class="claude"/><text x="32" y="17" class="not">Claude</text>
+    <rect x="130" width="22" height="22" rx="5" class="gpt"/><text x="162" y="17" class="not">ChatGPT</text>
+    <rect x="270" width="22" height="22" rx="5" class="yerel"/><text x="302" y="17" class="not">yerel araç / betik</text>
+    <rect x="460" width="22" height="22" rx="5" class="sen"/><text x="492" y="17" class="not">sen</text>
+    <rect x="540" width="22" height="22" rx="5" class="yayin"/><text x="572" y="17" class="not">YouTube</text>
+    <circle cx="671" cy="11" r="7" class="gemini"/><text x="692" y="17" class="not">Gemini seçeneği</text>
+  </g>
+</svg>
