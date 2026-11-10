@@ -11,22 +11,22 @@
     {
       "sira": 2,
       "dosya": "002_baba.wav",
-      "sure": 4.48,
+      "sure": 4.0,
       "bas": 2.4,
-      "bit": 6.88
+      "bit": 6.4
     },
     {
       "sira": 3,
       "dosya": "003_elif.wav",
       "sure": 1.6,
-      "bas": 6.88,
-      "bit": 8.48
+      "bas": 6.4,
+      "bit": 8.0
     },
     {
       "sira": 4,
       "dosya": "004_baba.wav",
-      "sure": 3.04,
-      "bas": 8.48,
+      "sure": 3.52,
+      "bas": 8.0,
       "bit": 11.52
     },
     {

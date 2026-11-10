@@ -1,4 +1,10 @@
 {
-  "elif": {"design": "A young village girl, about nine years old, bright and curious, a little worried, clear soft voice, natural speaking pace"},
-  "baba": {"design": "A middle-aged village man, warm and calm, deep gentle voice, slow thoughtful pace"}
+  "elif": {
+    "design": "A young village girl, about nine years old, bright and curious, a little worried, clear soft voice, natural speaking pace"
+  },
+  "baba": {
+    "reference": "referans/baba.wav",
+    "prompt_wav": "referans/baba.wav",
+    "prompt_text": "Yağmur yağmadı kızım, ama toprak bizi unutmadı."
+  }
 }
